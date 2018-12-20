@@ -200,11 +200,11 @@ class App extends Component {
           <div className="row justify-content-center">
               <span className="paper col shadow-sm col-sm col-lg-8">
                 <span>
-                  <button onClick={this.firstPage} className="btn-light btn"><b><i className="fas fa-chevron-left" /><i className="fas fa-chevron-left" /> Frist</b></button>
+                  <button onClick={this.firstPage} className="btn-light btn"><b><i className="fas fa-chevron-left" /><i className="fas fa-chevron-left" /> Frist</b></button>{' '}
                   <button onClick={this.prevPage} className="btn-light btn"><b><i className="fas fa-chevron-left" /> Prev</b></button>
                 </span>
                 <span style={{float:"right"}}>
-                  <button onClick={this.nextPage} className="btn-light btn"><b>Next <i className="fas fa-chevron-right"/></b></button>
+                  <button onClick={this.nextPage} className="btn-light btn"><b>Next <i className="fas fa-chevron-right"/></b></button>{' '}
                   <button onClick={this.lastPage} className="btn-light btn"><b>Last <i className="fas fa-chevron-right"/><i className="fas fa-chevron-right"/></b></button>
                 </span>
               </span>
